@@ -27,9 +27,6 @@ export default function Home() {
           </div>
           <div className="min-w-0 flex-1">
             <h1 className="text-xl font-bold tracking-tight">全球城市天气舒适度看板</h1>
-            <p className="mt-1 text-xs text-muted-foreground">
-              437 城（中国大陆 368 + 港澳台 4 + 国际 65）· 基于舒适区平台函数评分模型 · 数据：2022-08-04 至 2026-10-04 逐日 · 颜色：0 分红 → 50 分黄 → 100 分绿
-            </p>
           </div>
           <div className="flex shrink-0 overflow-hidden rounded-md border text-sm">
             {TABS.map((t) => (
