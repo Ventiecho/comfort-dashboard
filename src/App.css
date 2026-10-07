@@ -1,0 +1,18 @@
+#root {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* 时间轴滑块 */
+input[type='range'] {
+  cursor: pointer;
+}
+
+/* 表格紧凑化 */
+th {
+  white-space: nowrap;
+}
+td {
+  white-space: nowrap;
+}
